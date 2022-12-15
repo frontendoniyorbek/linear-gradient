@@ -9,5 +9,4 @@ let linearGradient = () => {
 elForm.addEventListener('submit', (e) => {
     e.preventDefault()
     body.style.backgroundImage = `linear-gradient(43deg, rgb(${linearGradient()},${linearGradient()},${linearGradient()}) ,rgb(${linearGradient()},${linearGradient()},${linearGradient()}),rgb(${linearGradient()},${linearGradient()},${linearGradient()}))`
-    console.log(5);
 })
